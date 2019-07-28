@@ -16,11 +16,15 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/*background: #060116;*/
+	/*background: #060116;
 	background-image: url(../imgs/fundo-03.svg);
-	background-size: 100%;
+	background-size: 90vw 125vh;
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
+}
+.bg{
+	height: 100%;
+	width: 100%;
 }
 /*.logo{
 	width: 400px;
