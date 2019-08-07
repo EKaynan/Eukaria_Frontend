@@ -4,8 +4,8 @@ let bacteria_roxa = 'M91.8,56c1.7-0.4,3.2,0.8,4.7,0.1c0.4-0.2,0.7-0.3,1.1-0.5c7.
 anime({
   targets: '.anima1',
   translateX: [
-  		{value: '5px'},
-  		{value: '-5px'}
+      {value: '5px'},
+      {value: '-5px'}
   ],
   translateY: '15px',
   direction: 'alternate',
@@ -20,8 +20,8 @@ anime({
   targets: '.anima2',
   delay: 100,
   translateX: [
-  		{value: 15},
-  		{value: -5}
+      {value: 15},
+      {value: -5}
   ],
   translateY: -10,
   direction: 'alternate',
@@ -97,8 +97,8 @@ anime({
   targets: '.anima4',
   delay: 500,
   translateX: [
-  		{value: '7px'},
-  		{value: '-2px'}
+      {value: '7px'},
+      {value: '-2px'}
   ],
   translateY: '-5px',
   rotate: '1deg',
