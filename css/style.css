@@ -1,0 +1,83 @@
+@font-face{
+	font-family: 'Shkoder';
+	src: url('../Shkoder 1989 Black.otf');
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+body{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	flex-direction: column;
+
+}
+
+.hero{
+	height: 120vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: hsla(254, 91%, 5%, 1);
+	background-image: url(../imgs/fundo_div.png);
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	/*flex-direction: column;*/
+}
+
+.botao{
+	position: absolute;
+	top: 77%;
+	color:#0473AA;
+	font-family: 'Shkoder';
+	font-size: 22pt;
+	width: 0.3px;
+	height: 0.1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 5px solid #0473AA;
+	border-radius: 1px;
+	cursor: pointer;
+	padding-bottom: 5px;
+}
+
+#Layer_3{
+	opacity: 0.85;
+}
+svg{
+	height: 120vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bg{
+	height: 100%;
+	width: 100%;
+}
+/*.logo{
+	width: 400px;
+}*/
+.anima10{
+	/*transform: rotate(50deg);*/
+	transform-origin: 78% 35%;
+}
+.anima12{
+	/*transform: rotate(50deg);*/
+	transform-origin: 26% 95%;
+}
+.anima13{
+	/*transform: rotate(50deg);*/
+	transform-origin: 7% 50%;
+}
+
+
