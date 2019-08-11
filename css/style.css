@@ -52,6 +52,11 @@ body{
 	padding-bottom: 5px;
 }
 
+.botao:hover{
+	border: 5px solid #3498db;
+	color: #3498db;
+}
+
 #Layer_3{
 	opacity: 0.85;
 }
