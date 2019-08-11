@@ -19,6 +19,8 @@ body{
 
 }
 
+
+
 .hero{
 	height: 120vh;
 	width: 100vw;
@@ -77,5 +79,4 @@ svg{
 	/*transform: rotate(50deg);*/
 	transform-origin: 7% 50%;
 }
-
 
