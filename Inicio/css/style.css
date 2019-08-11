@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+body{
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+h1{
+	font-size: 26pt;
+}
+.menu{
+	/*border: 1px solid blue;*/
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+.hamburguer{
+	width: 70px;
+	height: 70px;
+	/*border: 1px red solid;*/
+/*	background-image: url('../../imgs/hamburger.png');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	/*background: red;*/
+	/*z-index: 2;*/
+}
+
+.element{
+	height: 7px;
+	width: 40px;
+	background: black;
+	margin: 2px;
+	z-index: -2;
+}
+.apresentacao{
+	width: 100vw;
+	padding: 10px;
+	/*border: 1px solid red;*/
+}
+
+.titulo{
+	text-align: center;
+	font-size: 22pt;
+	user-select: none;
+}
+
+.texto{
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 15pt;
+	text-align: justify;
+}
+
+.imagens{
+	/*border: 1px solid red;*/
+	border-top: 0px;
+	padding: 15px;
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: center;
+}
+.im{
+	width: 350px;
+	height: 350px;
+	display: inline-block;
+	border: 1px solid red;
+	margin: 15px;
+}
+.m1{
+	margin-right: 35px;
+}
+
+.conteudo{	
+	/*border: 1px solid red;*/
+	border-top: 0px;
+	padding: 15px;
+}
+
+.opcoes{
+	/*border: 1px solid red;*/
+	border-top: 0px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.cells{
+	margin-left: 25%;
+	margin-right: 25%;
+	/*padding-right: 5%;*/
+	/*padding-left: 5%;*/
+	padding-bottom: 10px;
+	padding-top: 10px;
+	/*border: 1px solid blue;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.cell{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 1px solid blue;
+	margin: 25px;
+}
