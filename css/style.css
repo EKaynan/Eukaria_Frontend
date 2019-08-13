@@ -23,7 +23,7 @@ body{
 
 .hero{
 	height: 120vh;
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -37,8 +37,8 @@ body{
 
 .botao{
 	position: absolute;
-	top: 77%;
-	color:#0473AA;
+	top: 80%;
+	color:#187C7C;
 	font-family: 'Shkoder';
 	font-size: 22pt;
 	width: 0.3px;
@@ -46,15 +46,15 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 5px solid #0473AA;
+	border: 5px solid #187C7C;
 	border-radius: 1px;
 	cursor: pointer;
 	padding-bottom: 5px;
 }
 
 .botao:hover{
-	border: 5px solid #3498db;
-	color: #3498db;
+	border: 5px solid #1E9F9F;
+	color: #1E9F9F;
 }
 
 #Layer_3{
