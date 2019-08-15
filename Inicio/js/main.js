@@ -74,7 +74,12 @@ function expandir(){
 		borderRadius: '5%',
 		duration:100
 	});
-	document.querySelector('.lista').style.color= '#FFFFFF';
+	let links=document.getElementsByClassName('link');
+	let cont= 0;
+	while(cont<links.length){
+		links[cont].style.color= '#FFFFFF';
+		cont++
+	}
 }
 function diminuir(){
 	anime({
@@ -85,7 +90,12 @@ function diminuir(){
 		borderRadius: '50%',
 		duration:100
 	});
-	document.querySelector('.lista').style.color= '#000000';
+	let links=document.getElementsByClassName('link');
+	let cont= 0;
+	while(cont<links.length){
+		links[cont].style.color= '#343252';
+		cont++
+	}
 }
 
 function menu(){
