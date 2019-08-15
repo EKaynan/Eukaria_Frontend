@@ -23,38 +23,39 @@ body{
 
 .hero{
 	height: 120vh;
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background: hsla(254, 91%, 5%, 1);
-	background-image: url(../imgs/fundo_div.png);
-	background-size: 100%;
+	/*background-image: url(../imgs/fundo_div.png);*/
+	/*background-size: 100%;
 	background-position: center;
-	position: relative;
+	position: relative;*/
 	/*flex-direction: column;*/
+	background: #201d30;
 }
 
 .botao{
 	position: absolute;
-	top: 77%;
-	color:#0473AA;
+	top: 80%;
+	color:#187C7C;
 	font-family: 'Shkoder';
-	font-size: 22pt;
+	font-size: 20pt;
 	width: 0.3px;
 	height: 0.1px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 5px solid #0473AA;
+	border: 5px solid #187C7C;
 	border-radius: 1px;
 	cursor: pointer;
 	padding-bottom: 5px;
 }
 
 .botao:hover{
-	border: 5px solid #3498db;
-	color: #3498db;
+	border: 5px solid #1E9F9F;
+	color: #1E9F9F;
 }
 
 #Layer_3{
@@ -85,3 +86,60 @@ svg{
 	transform-origin: 7% 50%;
 }
 
+
+@media only screen and (max-width: 500px){
+	.botao{
+		/*position: absolute;*/
+		top: 75%;
+		/*color:#187C7C;*/
+		/*font-family: 'Shkoder';*/
+		font-size: 11pt;
+		width: 0.3px;
+		height: 0.1px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 4px solid #187C7C;
+		border-radius: 5px;
+		cursor: pointer;
+		padding-bottom: 5px;
+	}
+}
+
+@media only screen and (max-width: 850px){
+	.botao{
+		/*position: absolute;*/
+		top: 80%;
+		/*color:#187C7C;*/
+		/*font-family: 'Shkoder';*/
+		font-size: 13pt;
+		width: 0.3px;
+		height: 0.1px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 4px solid #187C7C;
+		border-radius: 5px;
+		cursor: pointer;
+		padding-bottom: 5px;
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	.botao{
+		/*position: absolute;*/
+		top: 80%;
+		/*color:#187C7C;*/
+		/*font-family: 'Shkoder';*/
+		font-size: 14pt;
+		width: 0.3px;
+		height: 0.1px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 4px solid #187C7C;
+		border-radius: 5px;
+		cursor: pointer;
+		padding-bottom: 5px;
+	}
+}

@@ -1,8 +1,10 @@
+
+
 var aberto=false;
 
 function abrir() { 
 	anime({
-		targets: '.menu',
+		targets: '.symbol',
 		duration: 100,
 		easing: 'linear',
 		rotate: '180deg'
@@ -34,7 +36,7 @@ function abrir() {
 };
 function fechar() { 
 	anime({
-		targets: '.menu',
+		targets: '.symbol',
 		duration: 100,
 		easing: 'linear',
 		rotate: '0deg'
@@ -55,19 +57,44 @@ function fechar() {
 	anime({
 		targets: '.mid',
 		easing: 'linear',
-		width: '40px',
-		height: '7px',
+		width: '30px',
+		height: '4px',
 		borderRadius: '0%',
-		// backgroundColor: '#000000',
+		// backgroundCoFlor: '#000000',
 		duration: 100
 	});
 	aberto=false;
 };
+function expandir(){
+	anime({
+		targets:'.menu',
+		easing: 'linear',
+		width: '300px',
+		height: '400px',
+		borderRadius: '5%',
+		duration:100
+	});
+	document.querySelector('.lista').style.color= '#FFFFFF';
+}
+function diminuir(){
+	anime({
+		targets:'.menu',
+		easing: 'linear',
+		height: '60px',
+		width: '60px',
+		borderRadius: '50%',
+		duration:100
+	});
+	document.querySelector('.lista').style.color= '#000000';
+}
+
 function menu(){
 	if(aberto){
 		fechar();
+		diminuir();
 	} else {
 		abrir();
+		expandir();
 	}
 }
 
