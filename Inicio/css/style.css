@@ -28,62 +28,6 @@ h1{
 	position: absolute;
 }
 
-.menu{
-	background: #090222;
-	width: 60px;
-	height: 60px;
-	position: absolute;
-	left: 25px;
-	top: 25px;
-	border-radius: 50%;
-	display: flex;
-	/*align-items: center;*/
-	justify-content: center;
-	overflow-y: hidden;
-}
-li{
-	padding: 10px;
-}
-.lista{
-	font-size: 16pt;
-	margin-top: 5%;
-	/*color: white;*/
-	margin-left: 7%;
-	overflow-y: hidden;
-	list-style: none;
-}
-.symbol{
-	/*border: 1px solid blue;*/
-	background: #090222;
-	position: absolute;
-	left: 25px;
-	top: 25px;
-	z-index: 2;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-}
-
-.logo{
-	width:300px;
-}
-
-.hamburguer{
-	width: 60px;
-	height: 60px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.element{
-	height: 4px;
-	width: 30px;
-	background: white;
-	margin: 2px;
-	z-index: -2;
-}
 .apresentacao{
 	width: 100vw;
 	padding: 10px;
@@ -108,7 +52,7 @@ li{
 
 .imagens{
 	/*border: 1px solid blue;*/
-	background: #090222;
+	/*background: #2C2A42;*/
 	border-top: 0px;
 	padding: 15px;
 	display: flex;
@@ -119,11 +63,18 @@ li{
 	width: 350px;
 	height: 350px;
 	display: inline-block;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin: 15px;
+	background-position: center;
+	background-size: 90%;
+	background-repeat: no-repeat;
 }
 .m1{
 	margin-right: 35px;
+	background-image: url(../../imgs/celulas-03.png);
+}
+.m2{
+	background-image: url(../../imgs/celulas-04.png);
 }
 
 .conteudo{	
@@ -138,7 +89,7 @@ li{
 	padding: 15px;
 	display: flex;
 	flex-direction: column;
-	background: #090222;
+	background: #2C2A42;
 }
 
 .cells{
@@ -199,11 +150,6 @@ li{
 
 }
 
-@media only screen and (max-width: 543px){
-	header{
-		background-size: 125%;
-	}
-}
 
 @media only screen and (max-width: 620px){
 	.texto{
