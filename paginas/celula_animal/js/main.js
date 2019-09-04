@@ -72,13 +72,3 @@ function menu(){
 	}
 }
 
-anime({
-	targets: '.mito',
-	// position: 'absolute',
-	translateX: '-50px',
-	opacity:1,
-	duration: 300,
-	easing: 'linear'
-})
-
-// document.querySelector('.hamburguer').onclick= menu;
