@@ -136,16 +136,7 @@ anime({
   loop: true,
   duration: 5000
 });
-// anime({
-//   targets: '.flagelos1',
-//   d: [
-//     { value: bacteria_roxa },
-//   ],
-//   direction: 'alternate',
-//   easing: 'easeInOutSine',
-//   loop: true,
-//   duration: 3000
-// });
+
 
 // CELULAS PEQUENAS VERDE CANTO SUPERIOR DIREIRO
 anime({
