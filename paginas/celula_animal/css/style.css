@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	/*overflow-x: hidden;*/
+}
+body{
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 10vh;
+	/*border: 1px solid red;*/
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+
+main{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	/*border: 1px solid red;*/
+}
+
+h1{
+	font-size: 20pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.principal{
+	width: 600px;
+	height: 600px;
+	position: relative;
+	margin-right: 25px;
+	border: 1px solid green;
+}
+.isolado{
+	width: 600px;
+	height: 600px;
+	top: 0;
+	position: absolute;
+	left: 50px;
+	border: 1px solid red;
+}
+.mito{
+	background: green;
+	opacity: 0;
+}
+
+.celula{
+	width: 300px;
+	height: 300px;
+	/*border: 1px solid green;*/
+	/*background-image: url(../../../imgs/celulas-04.png);
+	background-size: 90%;
+	background-position: center;
+	background-repeat: no-repeat;*/
+}
+.cell{
+	width: 300px;
+	height: 300px;
+}
+.mitocondria_3{
+	transform-origin: 43% 71%;
+	/*transform: rotate(-120deg);*/
+}
+.centriolo_1{
+	transform-origin: 43% 71%;
+	/*transform: rotate(-120deg);*/
+}
+
+
+.texto{
+	margin-bottom: 10px;
+	height: 175px;
+	border: 1px solid black;
+	width: 300px;
+	overflow-y: auto;
+
+	/*border-right: 1px solid red;*/
+}
+
+.desc{
+	width: 300px;
+	/*height: 175px;*/
+}
+p{
+	text-align: justify;
+	padding: 10px;
+
+}
+.botao{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.botoes{
+	/*border: 1px solid red;*/
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.sec{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	/*border: 1px solid blue;*/
+}
+.avan{
+	background-image: url(../../../imgs/avan_symbol.png);
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.voltar{
+	background-image: url(../../../imgs/retro_symbol.png);
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.reduzir{
+	background-image: url(../../../imgs/aument_symbol.png);
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.aumentar{
+	background-image: url(../../../imgs/reduz_symbol.png);
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.vel{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	/*border: 1px solid green;*/
+}
+
+.pausa_avancar{
+	width: 35px;
+	height: 35px;
+	/*border-radius: 50%;*/
+	/*border: 1px solid orange;*/
+}
+
+@media only screen and (min-width: 600px){
+	header{
+		width: 100%;
+		height: 10vh;
+		/*border: 1px solid red;*/
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+
+	.symbol{
+		width: 75px;
+		height: 75px;
+		z-index: 2;
+		border-radius: 50%;
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow-y: hidden;
+		right: 25px;
+	}
+
+	.element{
+		height: 4px;
+		width: 30px;
+		background: black;
+		margin: 2px;
+		z-index: -2;
+		overflow-y: hidden;
+	}
+
+	.hamburguer{
+		overflow-y: hidden;
+		width: 75px;
+		height: 75px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.logo{
+		width: 100px;
+		height: 100px;
+		/*border: 1px solid blue;*/
+		position: absolute;
+		left: 25px;
+		background-image: url(../../../imgs/logo-01.png); 
+		background-size: 80%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.celula{
+		width: 400px;
+		height: 400px;
+	}
+	.cell{
+		width: 400px;
+		height: 400px;
+	}
+	.texto{
+		width: 400px;
+		height: 275px;
+	}
+	.desc{
+		width: 400px;
+		/*height: 275px;*/
+	}
+	.botoes{
+		width: 400px;
+	}
+	.botao{
+		margin-right: 25px; 
+		margin-left: 25px;	
+	}
+	.vel{
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		/*border: 1px solid green;*/
+	}
+	.sec{
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		/*border: 1px solid blue;*/
+	}
+	.pausa_avancar{
+		width: 40px;
+		height: 40px;
+		/*border-radius: 50%;*/
+		/*border: 1px solid orange;*/
+	}
+	h1{
+		font-size: 30pt;
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	.celula{
+		width: 600px;
+		height: 600px;
+	}
+	.cell{
+		width: 600px;
+		height: 600px;
+	}
+	.texto{
+		width: 600px;
+		height: 450px;
+	}
+	.desc{
+		width: 600px;
+		/*height: 450px;*/
+	}
+	.botoes{
+		width: 600px;
+	}
+	.botao{
+		margin-right: 50px; 
+		/*margin-left: 5px;	*/
+	}
+	.vel{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		/*border: 1px solid green;*/
+	}
+	.sec{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		/*border: 1px solid blue;*/
+	}
+	.pausa_avancar{
+		width: 55px;
+		height: 55px;
+		/*border-radius: 50%;*/
+		/*border: 1px solid orange;*/
+	}
+	p{
+		font-size: 18pt;
+	}
+	h1{
+		font-size: 35pt;
+	}
+}
+
+@media only screen and (min-width: 1100px){
+	header{
+		height: 15vh;
+	}
+	.symbol{
+		margin-right: 75px;
+	}
+	.element{
+		height: 7px;
+		width: 40px;
+	}
+	.logo{
+		margin-left: 75px;
+	}
+	.celula{
+		width: 600px;
+		height: 600px;
+		margin-right: 25px;
+	}
+	.cell{
+		width: 600px;
+		height: 600px;
+	}
+	.texto{
+		width: 600px;
+		height: 450px;
+		/*border: 1px solid red;*/
+	}
+	.desc{
+		width: 600px;
+		margin-right: 25px;
+		/*height: 450px;*/
+	}
+	.botoes{
+		width: 600px;
+	}
+	.botao{
+		/*margin-right: 50px; */
+		/*margin-left: 5px;	*/
+	}
+	.vel{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		/*border: 1px solid green;*/
+	}
+	.sec{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		/*border: 1px solid blue;*/
+	}
+	.pausa_avancar{
+		width: 55px;
+		height: 55px;
+		/*border-radius: 50%;*/
+		/*border: 1px solid orange;*/
+	}
+	p{
+		font-size: 18pt;
+	}
+	h1{
+		font-size: 35pt;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	main{
+		flex-direction: row;
+		align-items: center;
+		justify-content: center; 
+	}
+}
