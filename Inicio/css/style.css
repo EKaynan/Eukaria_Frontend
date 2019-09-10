@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+
 *{
 	padding: 0;
 	margin: 0;
@@ -7,87 +9,144 @@
 body{
 	height: 100vh;
 	font-family: 'Roboto', sans-serif;
+	perspective: 1px;
+    transform-style: preserve-3d;
 }
 
 header{
-	height: 70vh;
-	/*background: green;*/
-	/*border: 1px solid green;*/
+	height: 100vh;
 	width: 100vw;
 	display: flex;
+	transform: translateZ(-1px) scale(2);
+  	z-index: -1;
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	background-image: url(../../imgs/fundo-03.png);
-	background-position: center;
-	background-size: 100%;
-	/*background-repeat: no-repeat; */
 }
-h1{
-	font-size: 26pt;
+.logo{
+	width: 8%;
+	/*height: 10%;*/
+	opacity: 1;
 	position: absolute;
+	top: 5%;
+	left: 10%;
 }
-
-.menu{
-	background: #090222;
+.scroll{
+	position: absolute;
 	width: 60px;
 	height: 60px;
-	position: absolute;
-	left: 25px;
-	top: 25px;
-	border-radius: 50%;
+	/*border: 1px solid red;*/
+	/*background: red;*/
+	overflow-y: hidden;
+	bottom: 5%;
 	display: flex;
-	/*align-items: center;*/
+	align-items: center;
+	flex-direction: column;
 	justify-content: center;
-	overflow-y: hidden;
+	z-index: 2;
 }
-li{
-	padding: 10px;
+.scr{
+	height: 20px;
+	z-index: 1;
 }
-.lista{
-	font-size: 16pt;
-	margin-top: 5%;
-	/*color: white;*/
-	margin-left: 7%;
-	overflow-y: hidden;
-	list-style: none;
+.s1{
+	opacity: 0;
 }
+.s2{
+	opacity: 0;
+}
+.s3{
+	opacity: 0;
+}
+
 .symbol{
 	/*border: 1px solid blue;*/
-	background: #090222;
+	/*background: #343252;*/
 	position: absolute;
-	left: 25px;
-	top: 25px;
+	right: 5%;
+	top: 5%;
 	z-index: 2;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	display: flex;
 	justify-content: center;
 }
 
-.logo{
-	width:300px;
+.element{
+	height: 8px;
+	width: 50px;
+	background: #6B25F2;
+	margin: 3px;
+	z-index: -2;
 }
 
 .hamburguer{
-	width: 60px;
-	height: 60px;
+	/*width: 60px;*/
+	/*height: 60px;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
 
-.element{
-	height: 4px;
-	width: 30px;
-	background: white;
-	margin: 2px;
-	z-index: -2;
+.sec1{
+	position: absolute;
+	left: 0px;
+	height: 100%;
+	width: 50%;
+	/*border: 1px solid red;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.apr{
+	/*width: 200px;
+	height: 200px;*/
+	/*border: 1px solid red;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.sec2{
+	position: absolute;
+	right: 0px;
+	height: 100%;
+	width: 50%;
+	background-image: url(../../imgs/dna.svg);
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-size: 80%;
+	z-index: -1;
+	/*border: 1px solid green;*/
+}
+.welcome_1{
+	font-family: 'Aqua';
+	font-size: 74pt;
+}
+.welcome_2{
+	font-family: 'Aqua';
+	font-size: 40pt;
+	margin-bottom: 10px;
+}
+.welcome_3{
+	font-family: 'Aqua';
+	font-size: 22pt;
+}
+main{
+	display: block;
+	z-index: 1;
+	/*background: #201d30;*/
+	background: black;
 }
 .apresentacao{
 	width: 100vw;
 	padding: 10px;
+	padding-bottom: 100px;
+	padding-top: 100px;
 	margin-top: 20px;
+	color: white;
+	/*background: #201d30;*/
+	background: black;
 	/*border: 1px solid yellow;*/
 }
 
@@ -108,28 +167,44 @@ li{
 
 .imagens{
 	/*border: 1px solid blue;*/
-	background: #090222;
+	background: black;
 	border-top: 0px;
 	padding: 15px;
 	display: flex;
+	/*background: #201d30;*/
+	height: 100vh;
 	/*flex-direction: column;*/
 	justify-content: center;
+	background-image: url(../../imgs/teste.png);
+	background-position: center;
+	background-size: 90%;
+	background-repeat: no-repeat;
 }
-.im{
+/*.im{
 	width: 350px;
 	height: 350px;
 	display: inline-block;
-	border: 1px solid red;
 	margin: 15px;
-}
-.m1{
+	background-image: url(../../imgs/fundo-03.svg);
+	background-position: center;
+	background-size: 90%;
+	background-repeat: no-repeat;
+}*/
+/*.m1{
 	margin-right: 35px;
+	background-image: url(../../imgs/celulas-03.png);
 }
-
+.m2{
+	background-image: url(../../imgs/celulas-04.png);
+}
+*/
 .conteudo{	
 	/*border: 1px solid red;*/
 	border-top: 0px;
+	background: white;
 	padding: 15px;
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
 
 .opcoes{
@@ -138,8 +213,10 @@ li{
 	padding: 15px;
 	display: flex;
 	flex-direction: column;
-	background: #090222;
+	background: white;
 }
+
+
 
 .cells{
 	margin-left: 25%;
@@ -152,7 +229,12 @@ li{
 	justify-content: center;
 }
 
-
+.opcoes a{
+	display: block;
+	z-index: 2;
+	/*border: 1px solid red;*/
+	/*background: red;*/
+}
 .cell{
 	width: 150px;
 	height: 150px;
@@ -161,6 +243,48 @@ li{
 	margin: 20px;
 }
 
+
+
+.animal{
+	background-image: url(../../imgs/celulas-04.png);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.vegetal{
+	background-image: url(../../imgs/celulas-03.png);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.respiracao{
+	background-image: url(../../imgs/mene_sueco1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.divisao{
+	background-image: url(../../imgs/mene_sueco2.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.sintaxe{
+	background-image: url(../../imgs/mene_sueco3.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
 @media only screen and (max-width: 1150px){
 	.texto{
 		margin-left: 20%;
@@ -173,6 +297,24 @@ li{
 	.cells{
 		margin-left: 15%;
 		margin-right: 15%;
+	}
+	.scr{
+		height: 15px;
+	}
+	.scroll{
+		height: 45px;
+	}
+	.sec2{
+		background-size: 140%;
+		background-position: top; 
+	}
+	.logo{
+		width: 15%;
+		/*height: 10%;*/
+		opacity: 1;
+		position: absolute;
+		top: 5%;
+		left: 5%;
 	}
 }
 
@@ -196,14 +338,29 @@ li{
 	.m1{
 		margin: 0;
 	}
-
-}
-
-@media only screen and (max-width: 543px){
-	header{
-		background-size: 125%;
+	.welcome_1{
+		font-size: 44.4pt;
+	}
+	.welcome_2{
+		font-size: 24pt;
+	}
+	.welcome_3{
+		font-size: 13.2pt;
+	}
+	.sec2{
+		background-size: 135%;
+		background-position: top;
+	}
+	.logo{
+		width: 20%;
+		/*height: 10%;*/
+		opacity: 1;
+		position: absolute;
+		top: 5%;
+		left: 5%;
 	}
 }
+
 
 @media only screen and (max-width: 620px){
 	.texto{
@@ -224,24 +381,44 @@ li{
 	}
 }
 
-@media only screen and (max-width: 543px){
-	header{
-		background-size: 125%;
-	}
-}
+
 
 @media only screen and (max-width: 490px){
-	header{
-		height: 70vh;
-		background-size: 150%;
+	.scroll{
+		display: none;
 	}
 }
 
 
 @media only screen and (max-width: 420px){
-	header{
-		height: 65vh;
-		background-size: 150%;
+	.sec2{
+		/*border: 1px solid red;*/
+		background-size: 180%;
+		background-position: top;
+		/*padding: 5px;*/
+	}
+	.welcome_1{
+		font-size: 32.8pt;
+	}
+	.welcome_2{
+		font-size: 16.8pt;
+	}
+	.welcome_3{
+		font-size: 9.24pt;
+	}
+	.sec2{
+		/*border: 1px solid red;*/
+		background-size: 200%;
+		background-position: top;
+		/*padding: 5px;*/
+	}
+	.logo{
+		width: 20%;
+		/*height: 10%;*/
+		opacity: 1;
+		position: absolute;
+		top: 5%;
+		left: 5%;
 	}
 }
 
@@ -262,9 +439,19 @@ li{
 	.opcoes{
 		align-items: center;
 	}
-	header{
-		background-size: 190%;
-		height: 60vh;
+	.sec2{
+		/*border: 1px solid red;*/
+		background-size: 180%;
+		background-position: top;
+		/*padding: 5px;*/
+	}
+	.logo{
+		width: 20%;
+		/*height: 10%;*/
+		opacity: 1;
+		position: absolute;
+		top: 5%;
+		left: 5%;
 	}
 }
 

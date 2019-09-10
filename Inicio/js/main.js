@@ -1,101 +1,52 @@
+const seta_1=document.querySelector('.s1');
+const seta_2=document.querySelector('.s2');
+const seta_3=document.querySelector('.s3');
 
+anime({
+	targets: '.s1',
+	opacity: 0.4,
+	direction: 'alternate',
+	duration: 500,
+	delay: 200,
+	endDelay: 300,
+	loop: true
+});
 
-var aberto=false;
+anime({
+	targets: '.s2',
+	opacity: 0.7,
+	direction: 'alternate',
+	duration: 500,
+	delay: 250,
+	endDelay: 250,
+	loop: true
+});
 
-function abrir() { 
-	anime({
-		targets: '.symbol',
-		duration: 100,
-		easing: 'linear',
-		rotate: '180deg'
-	});
+anime({
+	targets: '.s3',
+	opacity: 1,
+	direction: 'alternate',
+	duration: 500,
+	delay: 300,
+	endDelay: 200,
+	loop: true
+});
 
-	anime({
-		targets: '.top',
-		duration: 100,
-		easing: 'linear',
-		opacity: 0
-	})
-	anime({
-		targets: '.bottom',
-		easing: 'linear',
-		duration: 100,
-		opacity: 0
-	})
+$(".scroll").click(function(){
 
-	anime({
-		targets: '.mid',
-		easing: 'linear',
-		width: '15px',
-		height: '15px',
-		borderRadius: '50%',
-		// backgroundColor: '#27ae60',
-		duration: 100
-	});
-	aberto=true;
-};
-function fechar() { 
-	anime({
-		targets: '.symbol',
-		duration: 100,
-		easing: 'linear',
-		rotate: '0deg'
-	});
-	anime({
-		targets: '.top',
-		duration: 100,
-		easing: 'linear',
-		opacity: 1
-	})
-	anime({
-		targets: '.bottom',
-		easing: 'linear',
-		duration: 100,
-		opacity: 1
-	})
+$('html, body').animate({
+        scrollTop: $(".apresentacao").offset().top
+    }, 500);
+});
 
-	anime({
-		targets: '.mid',
-		easing: 'linear',
-		width: '30px',
-		height: '4px',
-		borderRadius: '0%',
-		// backgroundCoFlor: '#000000',
-		duration: 100
-	});
-	aberto=false;
-};
-function expandir(){
-	anime({
-		targets:'.menu',
-		easing: 'linear',
-		width: '300px',
-		height: '400px',
-		borderRadius: '5%',
-		duration:100
-	});
-	document.querySelector('.lista').style.color= '#FFFFFF';
-}
-function diminuir(){
-	anime({
-		targets:'.menu',
-		easing: 'linear',
-		height: '60px',
-		width: '60px',
-		borderRadius: '50%',
-		duration:100
-	});
-	document.querySelector('.lista').style.color= '#000000';
+function ir_CA(){
+	window.location.href= '../paginas/celula_animal/index.html'; 
+	// alert('a');
 }
 
-function menu(){
-	if(aberto){
-		fechar();
-		diminuir();
-	} else {
-		abrir();
-		expandir();
-	}
+function ir_CV(){
+	window.location.href= '../paginas/celula_vegetal/index.html'; 
 }
 
-document.querySelector('.hamburguer').onclick= menu;
+document.querySelector('.animal').onclick= ir_CA;
+document.querySelector('.vegetal').onclick= ir_CV;
