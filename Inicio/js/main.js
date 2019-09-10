@@ -40,12 +40,12 @@ $('html, body').animate({
 });
 
 function ir_CA(){
-	window.location.href= '../paginas/celula_animal/index.html'; 
+	window.location.href= 'Eukaria/paginas/celula_animal/index.html'; 
 	// alert('a');
 }
 
 function ir_CV(){
-	window.location.href= '../paginas/celula_vegetal/index.html'; 
+	window.location.href= 'Eukaria/paginas/celula_vegetal/index.html'; 
 }
 
 document.querySelector('.animal').onclick= ir_CA;
