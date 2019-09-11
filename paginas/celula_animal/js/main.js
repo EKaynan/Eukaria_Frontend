@@ -247,7 +247,6 @@ function abrir() {
 		// backgroundColor: '#27ae60',
 		duration: 100
 	});
-	menu(aberto);
 	aberto=true;
 	document.querySelector('.mid').onclick=fechar;
 	document.querySelector('.top').onclick=fechar;
@@ -282,43 +281,13 @@ function fechar() {
 		// backgroundColor: '#000000',
 		duration: 100
 	});
-	menu(aberto);
 	aberto=false;
 	document.querySelector('.mid').onclick=abrir;
 	document.querySelector('.top').onclick=abrir;
 	document.querySelector('.bottom').onclick=abrir;
 };
 
-function menu(status){
-	let menu=document.querySelector('.menu');
-	if(status){
-		anime({
-			targets: menu,
-			right: '-70%',
-			easing: 'easeInOutQuad',
-			duration: 500
-		});
-		anime({
-			targets: '.hamburguer',
-			easing: 'easeInOutQuad',
-			duration: 700,
-			right: '5%'
-		})
-	} else {
-		anime({
-			targets: menu,
-			right: '0',
-			easing: 'easeInOutQuad',
-			duration: 500
-		});
-		anime({
-			targets: '.hamburguer',
-			easing: 'easeInOutQuad',
-			duration: 700,
-			right: '48%'
-		})
-	}
-}
+
 
 document.querySelector('.mid').onclick=abrir;
 document.querySelector('.top').onclick=abrir;
