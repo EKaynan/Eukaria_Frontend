@@ -85,7 +85,10 @@ svg{
 	/*transform: rotate(50deg);*/
 	transform-origin: 7% 50%;
 }
-
+.logo{
+	width: 500px;
+	position: absolute;
+}
 
 @media only screen and (max-width: 500px){
 	.botao{
@@ -103,6 +106,9 @@ svg{
 		border-radius: 5px;
 		cursor: pointer;
 		padding-bottom: 5px;
+	}
+	.logo{
+		width: 150px;
 	}
 }
 
@@ -122,6 +128,9 @@ svg{
 		border-radius: 5px;
 		cursor: pointer;
 		padding-bottom: 5px;
+	}
+	.logo{
+		width: 200px;
 	}
 }
 
