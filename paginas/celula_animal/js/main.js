@@ -1,8 +1,4 @@
 var aberto=false;
-const sel1=document.querySelector('.s1');
-const sel2=document.querySelector('.s2');
-const sel3=document.querySelector('.s3');
-const sel4=document.querySelector('.s4');
 
 function troca_1(){
 	var sec1=document.querySelector('.animacao');
@@ -190,52 +186,6 @@ function menu(status){
 	}
 }
 
-function troca_membrana1(){
-	sel1.style.background='#bdc3c7';
-	sel2.style.background='#535c68';
-	sel3.style.background='#bdc3c7';
-	sel4.style.background='#bdc3c7';
-	document.querySelector('.mem1').style.display='none';
-	document.querySelector('.mem2').style.display='block';
-	document.querySelector('.mem3').style.display='none';
-	document.querySelector('.mem4').style.display='none';
-}
-function troca_membrana2(){
-	sel1.style.background='#bdc3c7';
-	sel2.style.background='#bdc3c7';
-	sel3.style.background='#535c68';
-	sel4.style.background='#bdc3c7';
-	document.querySelector('.mem1').style.display='none';
-	document.querySelector('.mem2').style.display='none';
-	document.querySelector('.mem3').style.display='block';
-	document.querySelector('.mem4').style.display='none';
-}
-function troca_membrana3(){
-	sel1.style.background='#bdc3c7';
-	sel2.style.background='#bdc3c7';
-	sel3.style.background='#bdc3c7';
-	sel4.style.background='#535c68';
-	document.querySelector('.mem1').style.display='none';
-	document.querySelector('.mem2').style.display='none';
-	document.querySelector('.mem3').style.display='none';
-	document.querySelector('.mem4').style.display='block';
-}
-function troca_membrana4(){
-	sel1.style.background='#535c68';
-	sel2.style.background='#bdc3c7';
-	sel3.style.background='#bdc3c7';
-	sel4.style.background='#bdc3c7';
-	document.querySelector('.mem1').style.display='block';
-	document.querySelector('.mem2').style.display='none';
-	document.querySelector('.mem3').style.display='none';
-	document.querySelector('.mem4').style.display='none';
-}
-
 document.querySelector('.mid').onclick=abrir;
 document.querySelector('.top').onclick=abrir;
 document.querySelector('.bottom').onclick=abrir;
-
-sel1.onclick=troca_membrana4;
-sel2.onclick=troca_membrana1;
-sel3.onclick=troca_membrana2;
-sel4.onclick=troca_membrana3;

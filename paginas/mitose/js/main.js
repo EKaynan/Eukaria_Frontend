@@ -13,8 +13,8 @@ function troca_2(){
 	sec1.style.display='flex';
 }
 
-document.querySelector('.avan').onclick= avancar_setas;
-document.querySelector('.voltar').onclick= voltar_setas;
+// document.querySelector('.avan').onclick= avancar_setas;
+// document.querySelector('.voltar').onclick= voltar_setas;
 
 
 function trocar(element){
@@ -87,6 +87,8 @@ function trocar(element){
 		troca_2();
 	}
 }
+
+
 document.querySelector('.op2').setAttribute('onclick', 'trocar(this)');
 
 var aberto=false;
@@ -204,8 +206,8 @@ function troca_2(){
 	sec1.style.display='flex';
 }
 
-document.querySelector('.avan').onclick= avancar_setas;
-document.querySelector('.voltar').onclick= voltar_setas;
+// document.querySelector('.avan').onclick= avancar_setas;
+// document.querySelector('.voltar').onclick= voltar_setas;
 
 
 function trocar(element){

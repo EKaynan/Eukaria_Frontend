@@ -85,4 +85,5 @@ if(pc){
 
 function abrir() {
 	window.location.href = 'Inicio/pagina_inicial.html';
+	alert("a")
 }

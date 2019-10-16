@@ -86,7 +86,7 @@ function texto_peroxiss(){
 	tx2.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus porttitor eros, quis interdum mi finibus ut. Curabitur nisi nibh, fermentum vel interdum tincidunt, scelerisque eu neque. Nam ultrices porta justo sit amet fringilla. Maecenas erat dolor, viverra sit amet dolor at, pharetra feugiat nunc. Integer ornare eros quis gravida sodales. Sed condimentum et velit eget lobortis. Vivamus erat ante, commodo in magna non, cursus egestas eros. Proin purus orci, euismod non erat ut, iaculis vulputate augue. Donec justo libero, pellentesque a dignissim id, luctus eget purus. Vivamus a lacus vel risus vehicula mollis. Sed blandit finibus sem, non pellentesque felis tincidunt in. Donec vel laoreet mi. Aliquam sed mattis dui.";
 }
 
-function texto_centri(){
+function texto_cloroplastos(){
 	tx1.innerHTML= '';
 	tx2.innerHTML= '';
 	tx3.innerHTML= '';
@@ -123,7 +123,6 @@ function texto_cito(){
 
 	tx1.innerHTML= "SMorbi bibendum lorem sed enim bibendum scelerisque. Cras blandit, ligula sit amet rutrum egestas, turpis metus dictum dolor, a scelerisque elit eros in tortor. Aenean non tellus quis neque tincidunt efficitur. Pellentesque in lorem turpis. Nullam ut vestibulum diam, at consectetur ligula. Vestibulum ut mauris justo. Integer eget urna nisi. Phasellus tincidunt tellus nec felis efficitur dictum. Integer iaculis, nisi id ultrices aliquet, ligula odio commodo ipsum, vel varius tellus enim et lacus. Vestibulum vehicula venenatis tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis ligula et pellentesque mollis. Morbi non purus ornare, pharetra ipsum sollicitudin, dictum urna.";
 }
-
 function texto_celula(){
 	tx1.innerHTML= '';
 	tx2.innerHTML= '';
@@ -154,9 +153,51 @@ function texto_nucleo(){
 	tx4.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 }
 
+function texto_glioxissomo(){
+	tx1.innerHTML= '';
+	tx2.innerHTML= '';
+	tx3.innerHTML= '';
+	tx4.innerHTML= '';
+	tx5.innerHTML= '';
+	tx6.innerHTML= '';
+	tx7.innerHTML= '';
+
+	tx1.innerHTML= "Nunc sed tincidunt odio. Vivamus malesuada diam eget justo feugiat consectetur non sed sem. Morbi facilisis, enim nec suscipit euismod, sapien nunc tempus sem, vitae scelerisque mauris massa a mi. Sed vel tincidunt nunc, vel auctor tellus. Nulla facilisi. Fusce tristique diam vitae malesuada egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed commodo libero id mattis finibus. Nunc mattis vel tortor eu auctor. Pellentesque a dolor eget tellus tincidunt egestas. Fusce bibendum ornare egestas. Pellentesque lacinia malesuada iaculis.";
+	tx2.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	tx3.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	tx4.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+}
+function texto_vacuolo(){
+	tx1.innerHTML= '';
+	tx2.innerHTML= '';
+	tx3.innerHTML= '';
+	tx4.innerHTML= '';
+	tx5.innerHTML= '';
+	tx6.innerHTML= '';
+	tx7.innerHTML= '';
+
+	tx1.innerHTML= "Sed egestas pellentesque fringilla. Etiam blandit massa est, nec dictum lacus maximus vel. Curabitur quis turpis mauris. Aliquam nec odio dapibus, accumsan risus nec, tristique sem. Cras sit amet neque sit amet purus finibus lobortis quis at orci. Ut consequat dolor libero, sed dapibus leo pellentesque nec. Nunc at tincidunt ex. Sed eu finibus augue, non commodo diam. Donec hendrerit malesuada sem quis gravida. Vestibulum faucibus lacus quis ex pulvinar, tincidunt ullamcorper diam sodales. Maecenas sit amet massa tellus.";
+	tx2.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	tx3.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	tx4.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+}
+function texto_parede(){
+	tx1.innerHTML= '';
+	tx2.innerHTML= '';
+	tx3.innerHTML= '';
+	tx4.innerHTML= '';
+	tx5.innerHTML= '';
+	tx6.innerHTML= '';
+	tx7.innerHTML= '';
+
+	tx1.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra placerat massa vel euismod. Sed pharetra tellus id arcu tempus, non finibus ipsum posuere. Nam pretium risus felis, a pretium enim porttitor ac. Nam ultricies, arcu sed feugiat congue, justo justo malesuada enim, ac consequat ligula enim mollis mauris. Curabitur vestibulum dictum magna quis convallis. Etiam nec arcu id libero dignissim vulputate non sed nisi. Nullam suscipit, velit ac porttitor blandit, lorem ex cursus lacus, in convallis nulla sem id sem. Mauris convallis condimentum odio nec sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras lacus nisl, finibus eget posuere sed, ultricies quis leo. Aenean ac malesuada lorem, a scelerisque odio. Vestibulum dictum at ipsum a eleifend.";
+	tx2.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	tx3.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+	tx4.innerHTML= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+}
 function trocar_clique(valor){
 	let el1=document.querySelector('.celula')
-	cont=(parseInt(valor)+1)
+	cont=(parseInt(valor))
 	let el2='.l'+cont;
 	if(cont==1){
 		texto_celula();
@@ -173,14 +214,20 @@ function trocar_clique(valor){
 	}else if(cont==7){
 		texto_peroxiss();
 	}else if(cont==8){
-		texto_centri();
+		texto_cloroplastos();
 	}else if(cont==9){
 		texto_membr();
 	}else if(cont==10){
 		texto_cito();
 	} else if(cont==11){
 		texto_nucleo();
-	}
+	} else if(cont==12){
+		texto_glioxissomo();
+	} else if(cont==13){
+		texto_vacuolo();
+	} else if(cont==14){
+		texto_parede();
+	} 
 	anime({
 		targets: el1,
 		// position: 'absolute',
@@ -319,7 +366,7 @@ function avancar_setas(){
 	}else if(cont==7){
 		el1='.l7'
 		el2='.l8'
-		texto_centri();
+		texto_cloroplastos();
 		cont++
 	}else if(cont==8){
 		el1='.l8'
@@ -338,6 +385,21 @@ function avancar_setas(){
 		cont++
 	}else if(cont==11){
 		el1='.l11'
+		el2='.l12'
+		texto_glioxissomo();
+		cont++
+	}else if(cont==12){
+		el1='.l12'
+		el2='.l13'
+		texto_vacuolo();
+		cont++
+	}else if(cont==13){
+		el1='.l13'
+		el2='.l14'
+		texto_parede();
+		cont++
+	}else if(cont==14){
+		el1='.l14'
 		el2='.l1'
 		texto_celula();
 		cont=1
@@ -376,23 +438,38 @@ function voltar_setas(){
 	let el1,el2;
 	if(cont==1){
 		el1='.l1';
-		el2='.l11';
+		el2='.l14';
+		texto_parede();
+		cont=14
+	}else if(cont==14){
+		el1='.l14'
+		el2='.l13'
+		texto_vacuolo();
+		cont--
+	}else if(cont==13){
+		el1='.l13';
+		el2='.l12'; 
+		texto_glioxissomo();
+		cont--
+	} else if(cont==12){
+		el1='.l12'
+		el2='.l11'
 		texto_nucleo();
-		cont=11
+		cont--
 	}else if(cont==11){
 		el1='.l11'
 		el2='.l10'
 		texto_cito();
 		cont--
 	}else if(cont==10){
-		el1='.l10';
-		el2='.l9'; 
+		el1='.l10'
+		el2='.l9'
 		texto_membr();
 		cont--
-	} else if(cont==9){
+	}else if(cont==9){
 		el1='.l9'
 		el2='.l8'
-		texto_centri();
+		texto_cloroplastos();
 		cont--
 	}else if(cont==8){
 		el1='.l8'
@@ -422,7 +499,7 @@ function voltar_setas(){
 	}else if(cont==3){
 		el1='.l3'
 		el2='.l2'
-		texto_cito();
+		texto_mitocondria();
 		cont--
 	}else if(cont==2){
 		el1='.l2'
