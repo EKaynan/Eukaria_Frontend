@@ -8,7 +8,7 @@ const tx7= document.querySelector('.explicacao_7');
 
 var status=1;
 function texto_profase(){
-	tx1.innerHTML= 'Ocorre a condensação do DNA que foi duplicado durante a Interfase. Além disso, o núcleo aumenta de tamanho e o nucléolo se desfaz.';
+	tx1.innerHTML= 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
 	tx2.innerHTML= '';
 	tx3.innerHTML= '';
 	tx4.innerHTML= '';
@@ -18,7 +18,7 @@ function texto_profase(){
 
 }
 function texto_prometafase(){
-	tx1.innerHTML= 'Ocorre a desintegração total do núcleo da célula, e os cromossomos ficam soltos no ambiente';
+	tx1.innerHTML= 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
 	tx2.innerHTML= '';
 	tx3.innerHTML= '';
 	tx4.innerHTML= '';
@@ -28,7 +28,7 @@ function texto_prometafase(){
 
 }
 function texto_metafase(){
-	tx1.innerHTML= 'Os cromossomos vão para o centro da célula (ou plano equatorial) onde se ligam com os microtúbulos. Além disso, eles atingem sua máxima condensação';
+	tx1.innerHTML= 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
 	tx2.innerHTML= '';
 	tx3.innerHTML= '';
 	tx4.innerHTML= '';
@@ -38,8 +38,7 @@ function texto_metafase(){
 
 }
 function texto_anafase(){
-	tx1.innerHTML= 'Os cromossomos são separados em duas cromátides irmãs, sendo essas duas geneticamente iguais. Metade é puxada para um dos lados da célula, e a outra metade para o polo oposto';
-	tx2.innerHTML= '';
+tx1.innerHTML= 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';	tx2.innerHTML= '';
 	tx3.innerHTML= '';
 	tx4.innerHTML= '';
 	tx5.innerHTML= '';
@@ -48,8 +47,8 @@ function texto_anafase(){
 
 }
 function texto_telofase(){
+	tx1.innerHTML= 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
 	tx2.innerHTML= '';
-	tx1.innerHTML= 'A célula se divide de fato. Ocorre um alongamento da célula e a membrana plasmática divide a célula em duas. Após isso, o núcleo celular se reconstrói ao redor dos cromossomos de cada célula';
 	tx3.innerHTML= '';
 	tx4.innerHTML= '';
 	tx5.innerHTML= '';
