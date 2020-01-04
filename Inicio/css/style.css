@@ -38,7 +38,37 @@ header{
 	left: 10%;
 	cursor: pointer;
 }
+<<<<<<< HEAD
 
+=======
+.scroll{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	/*border: 1px solid red;*/
+	/*background: red;*/
+	overflow-y: hidden;
+	bottom: 5%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 2;
+}
+.scr{
+	height: 20px;
+	z-index: 1;
+}
+.s1{
+	opacity: 0;
+}
+.s2{
+	opacity: 0;
+}
+.s3{
+	opacity: 0;
+}
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 
 .symbol{
 	/*border: 1px solid blue;*/
@@ -102,15 +132,24 @@ header{
 }
 .welcome_1{
 	font-family: 'Aqua';
+<<<<<<< HEAD
 	font-size: 66.6pt;
 }
 .welcome_2{
 	font-family: 'Aqua';
 	font-size: 42pt;
+=======
+	font-size: 74pt;
+}
+.welcome_2{
+	font-family: 'Aqua';
+	font-size: 40pt;
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 	margin-bottom: 10px;
 }
 .welcome_3{
 	font-family: 'Aqua';
+<<<<<<< HEAD
 	font-size: 20.9pt;
 }
 
@@ -119,14 +158,31 @@ main{
 	z-index: 1;
 	background: #0f0521;
 	/*background: black;*/
+=======
+	font-size: 22pt;
+}
+main{
+	display: block;
+	z-index: 1;
+	/*background: #201d30;*/
+	background: black;
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 }
 .apresentacao{
 	width: 100vw;
 	padding: 10px;
 	padding-bottom: 100px;
+<<<<<<< HEAD
 	padding-top: 20px;
 	/*margin-top: 20px;*/
 	background: white;
+=======
+	padding-top: 100px;
+	margin-top: 20px;
+	color: white;
+	/*background: #201d30;*/
+	background: black;
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 	/*border: 1px solid yellow;*/
 }
 
@@ -151,6 +207,7 @@ main{
 	border-top: 0px;
 	padding: 15px;
 	display: flex;
+<<<<<<< HEAD
 	background: #0f0521;
 	height: 100vh;
 	/*flex-direction: column;*/
@@ -158,6 +215,15 @@ main{
 	background-image: url(../../imgs/fundo_inicio.svg);
 	background-position: center;
 	background-size: 100%;
+=======
+	/*background: #201d30;*/
+	height: 100vh;
+	/*flex-direction: column;*/
+	justify-content: center;
+	background-image: url(../../imgs/teste.png);
+	background-position: center;
+	background-size: 90%;
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 	background-repeat: no-repeat;
 }
 /*.im{
@@ -183,8 +249,13 @@ main{
 	border-top: 0px;
 	background: white;
 	padding: 15px;
+<<<<<<< HEAD
 	padding-bottom: 50px;
 	padding-top: 20px;
+=======
+	padding-bottom: 100px;
+	padding-top: 100px;
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 }
 
 .opcoes{
@@ -211,6 +282,7 @@ main{
 .opcoes a>*{
 	pointer-events: none;
 }
+<<<<<<< HEAD
 .opcoes a{
 	cursor: pointer;
 	border: 1px solid #130f40;
@@ -223,6 +295,8 @@ main{
 	overflow-y: hidden;
 	margin: 20px;
 }
+=======
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 .cell{
 	width: 150px;
 	height: 150px;
@@ -307,6 +381,48 @@ button{
 	
 }
 
+
+
+.animal{
+	background-image: url(../../imgs/celulas-04.png);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.vegetal{
+	background-image: url(../../imgs/celulas-03.png);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.respiracao{
+	background-image: url(../../imgs/prófase.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.divisao{
+	background-image: url(../../imgs/mene_sueco2.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
+.sintaxe{
+	background-image: url(../../imgs/mene_sueco3.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*z-index: -1;*/
+	border: none;
+}
 @media only screen and (max-width: 1150px){
 	.texto{
 		margin-left: 20%;
@@ -324,7 +440,16 @@ button{
 		margin-left: 15%;
 		margin-right: 15%;
 	}
+<<<<<<< HEAD
 	
+=======
+	.scr{
+		height: 15px;
+	}
+	.scroll{
+		height: 45px;
+	}
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 	.sec2{
 		background-size: 140%;
 		background-position: top; 
@@ -386,6 +511,7 @@ button{
 		margin: 0;
 	}
 	.welcome_1{
+<<<<<<< HEAD
 		font-size: 44pt;
 	}
 	.welcome_2{
@@ -393,6 +519,15 @@ button{
 	}
 	.welcome_3{
 		font-size: 13.93pt;
+=======
+		font-size: 44.4pt;
+	}
+	.welcome_2{
+		font-size: 24pt;
+	}
+	.welcome_3{
+		font-size: 13.2pt;
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 	}
 	.sec2{
 		background-size: 135%;
@@ -426,6 +561,7 @@ button{
 	.opcoes{
 		align-items: center;
 	}
+<<<<<<< HEAD
 	form{
 		margin-left: 15%;
 		margin-right: 15%;
@@ -462,6 +598,16 @@ button{
 	font-family: 'Aqua';
 	font-size: 42pt;
 	margin-bottom: 10px;
+=======
+}
+
+
+
+@media only screen and (max-width: 490px){
+	.scroll{
+		display: none;
+	}
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 }
 .welcome_3{
 	font-family: 'Aqua';
@@ -476,6 +622,7 @@ button{
 		background-position: top;
 		/*padding: 5px;*/
 	}
+<<<<<<< HEAD
 	.texto{
 		/*margin-left: 0;*/
 	}
@@ -487,6 +634,16 @@ button{
 	}
 	.welcome_3{
 		font-size: 9.6pt;
+=======
+	.welcome_1{
+		font-size: 32.8pt;
+	}
+	.welcome_2{
+		font-size: 16.8pt;
+	}
+	.welcome_3{
+		font-size: 9.24pt;
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 	}
 	.sec2{
 		/*border: 1px solid red;*/
@@ -501,6 +658,7 @@ button{
 		position: absolute;
 		top: 5%;
 		left: 5%;
+<<<<<<< HEAD
 	}
 	form{
 		margin-left: 10%;
@@ -525,6 +683,8 @@ button{
 		font-size: 13pt;
 		margin-top: 15px;
 		margin-bottom: 25px;
+=======
+>>>>>>> 0abc1dcbca7807a18f5f7c61ce4b00489995bb70
 	}
 
 }
