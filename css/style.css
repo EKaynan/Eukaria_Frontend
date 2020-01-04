@@ -1,6 +1,6 @@
 @font-face{
 	font-family: 'Shkoder';
-	src: url('../Shkoder 1989 Black.otf');
+	src: url('../fontes/Shkoder 1989 Black.otf');
 }
 
 *{
@@ -33,7 +33,8 @@ body{
 	background-position: center;
 	position: relative;*/
 	/*flex-direction: column;*/
-	background: #201d30;
+	/*background: #201d30;*/
+	background: #060116;
 }
 
 .botao{
@@ -51,6 +52,7 @@ body{
 	border-radius: 1px;
 	cursor: pointer;
 	padding-bottom: 5px;
+	text-decoration: none;
 }
 
 .botao:hover{
@@ -72,7 +74,38 @@ svg{
 	height: 100%;
 	width: 100%;
 }
-
+.anima1{
+	height: 120vh;
+	position: absolute;
+}
+.anima5{
+	height: 120vh;
+	position: absolute;
+}
+.anima2{
+	height: 120vh;
+	position: absolute;
+}
+.anima3{
+	height: 120vh;
+	position: absolute;
+}
+.anima4{
+	height: 120vh;
+	position: absolute;
+}
+.anima6{
+	height: 120vh;
+	position: absolute;
+}
+.anima7{
+	height: 120vh;
+	position: absolute;
+}
+.anima11{
+	height: 120vh;
+	position: absolute;
+}
 .anima10{
 	/*transform: rotate(50deg);*/
 	transform-origin: 78% 35%;
@@ -85,26 +118,10 @@ svg{
 	/*transform: rotate(50deg);*/
 	transform-origin: 7% 50%;
 }
-
-
-@media only screen and (max-width: 500px){
-	.botao{
-		/*position: absolute;*/
-		top: 75%;
-		/*color:#187C7C;*/
-		/*font-family: 'Shkoder';*/
-		font-size: 11pt;
-		width: 0.3px;
-		height: 0.1px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border: 4px solid #187C7C;
-		border-radius: 5px;
-		cursor: pointer;
-		padding-bottom: 5px;
-	}
+.logo{
+	position: absolute;
 }
+
 
 @media only screen and (max-width: 850px){
 	.botao{
@@ -141,5 +158,218 @@ svg{
 		border-radius: 5px;
 		cursor: pointer;
 		padding-bottom: 5px;
+	}
+	.anima5{
+		height: 90vh;
+		position: absolute;
+	}	
+
+}
+
+@media only screen and (max-width: 500px){
+	.logo{
+		width: 100px;
+	}	
+	.anima1{
+		height: 50vh;
+		right: -5%;
+		top: 25%;
+		position: absolute;
+	}
+
+	.anima2{
+		height: 50vh;
+		/*border: 1px solid red;	*/
+		top: 20%;
+		right: -5%;
+	}
+	.anima3{
+		height: 60vh;
+		right: -25%;
+	}
+	.anima4{
+		height: 55vh;
+		right: -5%;
+		top: 30%;
+	}	
+	.anima5{
+		height: 50vh;
+		/*border: 1px solid red;	*/
+		top: 30%;
+		right: -10%;
+	}
+	.anima7{
+		height: 50vh;
+		top: 10%;
+		right: 35%;
+	}
+	.anima11{
+		height: 55vh;
+		top: 25%;
+		right: -20%;
+	}
+}
+@media only screen and (min-width: 501px){
+	.logo{
+		width: 150px;
+	}
+	.anima1{
+		height: 55vh;
+		right: -20%;
+		top: 20%;
+		position: absolute;
+	}	
+	.anima5{
+		height: 55vh;
+		/*border: 1px solid red;	*/
+		top: 35%;
+		right: -10%;
+	}
+	.anima2{
+		height: 55vh;
+		/*border: 1px solid red;	*/
+		top: 15%;
+		right: -10%;
+	}
+	.anima3{
+		height: 65vh;
+		right: -35%;
+	}
+	.anima4{
+		height: 65vh;
+		right: -5%;
+		top: 27%;
+	}
+	.anima7{
+		height: 55vh;
+		top: 10%;
+		right: 35%;
+	}
+	.anima11{
+		height: 55vh;
+		top: 20%;
+	}
+}
+@media only screen and (min-width: 650px){
+	.logo{
+		width: 200px;
+	}	
+	.anima1{
+		height: 65vh;
+		right: -15%;
+		top: 15%;
+		position: absolute;
+	}
+	.anima5{
+		height: 65vh;
+		/*border: 1px solid red;	*/
+		top: 30%;
+	}
+	.anima2{
+		height: 65vh;
+		/*border: 1px solid red;	*/
+		top: 15%;
+		right: -10%;
+	}
+	.anima3{
+		height: 70vh;
+		right: -35%;
+	}
+	.anima4{
+		height: 70vh;
+		right: 10%;
+		top: 27%;
+	}
+	.anima7{
+		height: 65vh;
+		top: 5%;
+		right: 35%;
+	}
+	.anima11{
+		height: 65vh;
+		top: 15%;
+		right: -20%;
+	}
+}
+@media only screen and (min-width: 800px){
+	.logo{
+		width: 250px;
+	}
+	.anima1{
+		height: 70vh;
+		right: -20%;
+		top: 10%;
+		position: absolute;
+	}
+	.anima5{
+		height: 70vh;
+		/*border: 1px solid red;	*/
+		top: 30%;
+	}	
+	.anima2{
+		height: 70vh;
+		/*border: 1px solid red;	*/
+		top: 15%;
+		right: -5%;
+	}
+	.anima11{
+		height: 65vh;
+		top: 15%;
+		right: -15%;
+	}
+	.anima3{
+		height: 80vh;
+		right: -45%;
+	}
+	.anima4{
+		height: 70vh;
+		right: 10%;
+		top: 27%;
+	}
+	.anima7{
+		height: 65vh;
+		top: 0%;
+		right: 35%;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+	.logo{
+		width: 300px;
+	}
+	.anima1{
+		height: 120vh;
+		right: 0;
+		top: -5%;
+	}	
+	.anima5{
+		height: 120vh;
+		top: 0;
+		left: 0;
+	}
+	.anima2{
+		height: 120vh;
+		/*border: 1px solid red;	*/
+		top: -15%;
+		right: -5%;
+	}
+	.anima11{
+		height: 120vh;
+		top: -15%;
+		right: -5%;
+	}
+	.anima3{
+		height: 120vh;
+		right: 0;
+	}
+	.anima4{
+		height: 120vh;
+		right: -5%;
+		top: -5%;
+	}
+	.anima7{
+		height: 120vh;
+		top: -5%;
+		right: -5%;
 	}
 }
