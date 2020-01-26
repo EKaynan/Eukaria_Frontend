@@ -85,6 +85,55 @@ a:hover{
 .exercicio{
 	margin-bottom: 50px;
 }
+
+.hamburguer{
+	display: none;
+	/*width: 65px;*/
+	/*height: 65px;*/
+	position: absolute;
+	/*border: 1px solid red;*/
+	right: 5%;
+	top: 20%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	z-index: 3;
+}
+
+.element{
+	height: 3px;
+	width: 27px;
+	background: #78c29c;
+	margin: 2px;
+	/*z-index: -2;*/
+}
+.menu{
+	height: 100%;
+	position: absolute;
+	/*border: 1px solid red;*/
+	background: #0D0811;
+	z-index: 2;
+	top: 0;
+	width: 60%;
+	display: none;
+	justify-content: center;
+	right: -70%;
+}
+.menu_lateral a{
+	color: white;
+	font-size: 14pt;
+	font-family: 'Roboto';
+}
+.menu_lateral li{
+	overflow-y: hidden;
+	padding-bottom: 15px;
+	list-style: none;
+}
+.menu_lateral{
+	margin-top: 30px;
+	display: block;
+}
+
 @media only screen and (max-width: 650px){
 	.hamburguer{
 		display: flex;

@@ -227,20 +227,20 @@ function trocar_anima(valor){
 		checar_oxid();
 	}
 
-	anime({
-		targets: el1,
-		translateX: [
-			{value:'-100px',
-			duration:300},
-			{value:'5%'}
-		],
-		opacity:{
-			value:0,
-			duration:200
-		},
-		easing: 'linear',
-		display: 'none'
-	});
+	// anime({
+	// 	targets: el1,
+	// 	translateX: [
+	// 		{value:'-100px',
+	// 		duration:300},
+	// 		{value:'5%'}
+	// 	],
+	// 	opacity:{
+	// 		value:0,
+	// 		duration:200
+	// 	},
+	// 	easing: 'linear',
+	// 	display: 'none'
+	// });
 	document.querySelector(el1).style.display='none';
 	document.querySelector(el2).style.display='flex';
 	anime({

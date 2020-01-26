@@ -291,44 +291,7 @@ const lisossomo3_animacao=anime({
 
 
 
-const ribossomosLivres1_animacao=anime({
-  targets: '.ribossomo_livre1',
-  easing: 'linear',
-  direction: 'alternate',
-  loop: true,
-  autoplay: true, 
-  translateX: function(){
-    let a=anime.random(3, 8);
-    let b= ''+a;
-    return b+'%';
-  },
-  translateY: function(){
-    let a=anime.random(3, 8);
-    let b= ''+a;
-    return b+'%';
-  },
-  duration: anime.stagger(3000)
-});
 
-const ribossomosLivres2_animacao=anime({
-  targets: '.ribossomo_livre2',
-  easing: 'linear',
-  direction: 'alternate',
-  loop: true,
-  autoplay: true, 
-  translateX: function(){
-    let a=anime.random(-5, -2);
-    let b= ''+a;
-    return b+'%';
-  },
-  translateY: function(){
-    let a=anime.random(-5, -2);
-    let b= ''+a;
-    return b+'%';
-  },
-  delay: 500,
-  duration: anime.stagger(1000)
-});
 
 
 function start(){
@@ -346,8 +309,6 @@ function start(){
   lisossomo1_animacao.play();
   lisossomo2_animacao.play();
   lisossomo3_animacao.play();
-  ribossomosLivres1_animacao.play();
-  ribossomosLivres2_animacao.play();
   botao_pausa.onclick= stop;
 }
 
@@ -366,8 +327,6 @@ function stop(){
   lisossomo1_animacao.pause();
   lisossomo2_animacao.pause();
   lisossomo3_animacao.pause();
-  ribossomosLivres1_animacao.pause();
-  ribossomosLivres2_animacao.pause();
   botao_pausa.onclick= start;
 }
 

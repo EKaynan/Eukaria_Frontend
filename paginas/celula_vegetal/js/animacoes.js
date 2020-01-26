@@ -2,13 +2,13 @@ const botao_pausa= document.querySelector('.pausa_avancar');
 var check=false;
 
 function mudar_botao(){
-	if(check){
-		botao_pausa.src ="../../imgs/play_symbol.png";
-		check=false;
-	} else{
-		botao_pausa.src="../../imgs/pausa_symbol.png";
-		check=true;
-	}
+  if(check){
+    botao_pausa.src ="../../imgs/play_symbol.png";
+    check=false;
+  } else{
+    botao_pausa.src="../../imgs/pausa_symbol.png";
+    check=true;
+  }
 }
 
 const mitocondria1_animacao=anime({
@@ -272,45 +272,6 @@ const glioxissomo_3_animacao=anime({
     duration: 8000
   },
   direction: 'alternate'
-});
-
-const ribossomosLivres1_animacao=anime({
-  targets: '.ribossomo_livre1',
-  easing: 'linear',
-  direction: 'alternate',
-  loop: true,
-  autoplay: true, 
-  translateX: function(){
-    let a=anime.random(1, 4);
-    let b= ''+a;
-    return b+'%';
-  },
-  translateY: function(){
-    let a=anime.random(3, 5);
-    let b= ''+a;
-    return b+'%';
-  },
-  duration: anime.stagger(3000)
-});
-
-const ribossomosLivres2_animacao=anime({
-  targets: '.ribossomo_livre2',
-  easing: 'linear',
-  direction: 'alternate',
-  loop: true,
-  autoplay: true, 
-  translateX: function(){
-    let a=anime.random(-5, -2);
-    let b= ''+a;
-    return b+'%';
-  },
-  translateY: function(){
-    let a=anime.random(-3, -2);
-    let b= ''+a;
-    return b+'%';
-  },
-  delay: 500,
-  duration: anime.stagger(4000)
 });
 
 
