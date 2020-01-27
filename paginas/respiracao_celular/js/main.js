@@ -323,7 +323,7 @@ function pausa(){
 				atp.pause();
 				degradacao_glicose.pause();
 				surgimento_piruvatos.pause();
-				document.querySelector('.pausa_avancar').src= "../../../imgs/pausa_symbol.png";
+				document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 				document.querySelector('.pausa_avancar').onclick= continuar;
 			}
 	} else if(check_anima==2){
@@ -334,7 +334,7 @@ function pausa(){
 			co2_1.pause();
 			acetiL_coA_1.pause();
 			piruvatos_ciclo_1.pause();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/pausa_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/pausa_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= continuar;
 		} else if(ciclo==2){
 			acido_oxaloacetico_1.pause();
@@ -342,14 +342,14 @@ function pausa(){
 			acetiL_coA_2.pause();
 			citrato_1.pause();
 			coA_2_ciclo.pause();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/pausa_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/pausa_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= continuar;
 		} else if(ciclo==3){
 			h2o_2.pause();
 			citrato_2.pause();
 			isocitrato_1.pause();
 			h2o_3.pause();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/pausa_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/pausa_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= continuar;
 		} else if(ciclo==4){
 			nad_2.pause();
@@ -357,14 +357,14 @@ function pausa(){
 			alfacetoglurato_1.pause();
 			nadh_2.pause();
 			co2_2.pause();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/pausa_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/pausa_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= continuar;
 		} else if(ciclo==5){
 			coA_3_ciclo.pause();
 			nad_3.pause();
 			alfacetoglurato_2.pause();
 			siccinio_1.pause();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/pausa_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/pausa_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= continuar;
 		} else if(ciclo==6){
 			adp_1.pause();
@@ -372,27 +372,27 @@ function pausa(){
 			siccinio_2.pause();
 			succinato_1.pause();
 			atp_1.pause();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/pausa_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/pausa_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= continuar;
 		} else if(ciclo==7){
 			fad_1.pause();
 			succinato_2.pause();
 			fumarico_1.pause();
 			fadh2_1.pause();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/pausa_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/pausa_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= continuar;
 		} else if(ciclo==8){
 			fumarico_2.pause();
 			h2o_4.pause();
 			malico_1.pause();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/pausa_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/pausa_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= continuar;
 		} else if(ciclo==9){
 			nad_4.pause();
 			nadh_4.pause();
 			acido_oxaloacetico_2.pause();
 			malico_2.pause();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/pausa_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/pausa_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= continuar;
 		}
 	}else if(check_anima==3){
@@ -400,7 +400,7 @@ function pausa(){
 			nadh_fosfo_1.pause();
 			nad_fosfo_1.pause();
 			h_fosfo_1.pause();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/pausa_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/pausa_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= continuar;
 		} else if(oxid_ch==2){
 			h_fosfo_2.pause();
@@ -418,8 +418,9 @@ function continuar(){
 				atp.play();
 				degradacao_glicose.play();
 				surgimento_piruvatos.play();
-				document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+				document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 				document.querySelector('.pausa_avancar').onclick= pausa;
+
 			}
 	} else if(check_anima==2){
 		if(ciclo==1){
@@ -429,7 +430,7 @@ function continuar(){
 			co2_1.play();
 			acetiL_coA_1.play();
 			piruvatos_ciclo_1.play();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= pausa;
 		} else if(ciclo==2){
 			acido_oxaloacetico_1.play();
@@ -437,14 +438,14 @@ function continuar(){
 			acetiL_coA_2.play();
 			citrato_1.play();
 			coA_2_ciclo.play();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= pausa;
 		} else if(ciclo==3){
 			h2o_2.play();
 			citrato_2.play();
 			isocitrato_1.play();
 			h2o_3.play();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= pausa;
 		} else if(ciclo==4){
 			nad_2.play();
@@ -452,14 +453,14 @@ function continuar(){
 			alfacetoglurato_1.play();
 			nadh_2.play();
 			co2_2.play();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= pausa;
 		} else if(ciclo==5){
 			coA_3_ciclo.play();
 			nad_3.play();
 			alfacetoglurato_2.play();
 			siccinio_1.play();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= pausa;
 		} else if(ciclo==6){
 			adp_1.play();
@@ -467,27 +468,27 @@ function continuar(){
 			siccinio_2.play();
 			succinato_1.play();
 			atp_1.play();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= pausa;
 		} else if(ciclo==7){
 			fad_1.play();
 			succinato_2.play();
 			fumarico_1.play();
 			fadh2_1.play();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= pausa;
 		} else if(ciclo==8){
 			fumarico_2.play();
 			h2o_4.play();
 			malico_1.play();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= pausa;
 		} else if(ciclo==9){
 			nad_4.play();
 			nadh_4.play();
 			acido_oxaloacetico_2.play();
 			malico_2.play();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= pausa;
 		}
 	}else if(check_anima==3){
@@ -495,12 +496,12 @@ function continuar(){
 			nadh_fosfo_1.play();
 			nad_fosfo_1.play();
 			h_fosfo_1.play();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= pausa;
 		} else if(oxid_ch==2){
 			h_fosfo_2.play();
 			atp_fosfo_1.play();
-			document.querySelector('.pausa_avancar').src= "../../../imgs/play_symbol.png";
+			document.querySelector('.pausa_avancar').style.backgroundImage ="url('../../../imgs/play_symbol.png')";
 			document.querySelector('.pausa_avancar').onclick= pausa;
 		}
 	}

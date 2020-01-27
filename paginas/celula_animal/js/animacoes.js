@@ -3,10 +3,10 @@ var check=false;
 
 function mudar_botao(){
 	if(check){
-		botao_pausa.src ="../../imgs/play_symbol.png";
+		botao_pausa.src ="../imgs/play_symbol.png";
 		check=false;
 	} else{
-		botao_pausa.src="../../imgs/pausa_symbol.png";
+		botao_pausa.src="../imgs/pausa_symbol.png";
 		check=true;
 	}
 }
